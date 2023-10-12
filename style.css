@@ -61,6 +61,9 @@ a {
     color: #007BFF;
     text-decoration: none;
 }
+a:hover{
+    color: red;
+}
 #skills{
     display: flex;
     justify-content: center;
@@ -73,9 +76,17 @@ a {
     height: 100px;
     border-radius: 50%;
 }
+.skills-image:hover{
+    transform: scale(1.5);
+}
 #about{
-    background-color: #333;
+    background-color: #141111;
     color: white;
+}
+
+#about p{
+    color: rgb(24, 171, 38);
+    font-size: 20px;
 }
 #hobbies{
     display: flex;
@@ -87,12 +98,34 @@ a {
     height: 200px;
     border-radius: 50%;
 }
+.hobbies-image:hover{
+    transform: scale(1.1);
+}
 #portfolio{
     background-color: gray;
+    height: 700px;
 }
 #portfolio p{
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 30px;
     margin-left: 50px;
+}
+#projects{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #beb3b3;
+
+}
+#projects p{
+    font-size: 30px;
+}
+.project-image{
+    width: 400px;
+    height: 300px;
+}
+#project-heading{
+    margin-left: 80px;
+    font-size: 30px;
 }
 
